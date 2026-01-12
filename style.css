@@ -30,7 +30,7 @@ span{
     width: 1120px;
 }
 
-.header{
+.header{ 
     padding: 32px 0px 27px;
     background-color: #DDF9FF;
     
@@ -46,10 +46,10 @@ span{
     display: flex;
     gap: 64px;
 }
-
+ 
 .header-link{
     font-weight: 700;
-    size: 24px;
+    font-size: 24px;
     color: #3A2E2E;
 }
 
@@ -178,9 +178,7 @@ gap: 15px;
 
 .work-container{
     display: flex;
-    align-items: center;
-    justify-content: center;
-
+    gap: 28px;
 }
 
 .work-title{
@@ -193,10 +191,8 @@ gap: 15px;
 }
 
 .work-text{
-
     font-size: 20px;
     font-weight: 500;
-    padding-right:130px ;
 }
 
 
@@ -215,9 +211,9 @@ gap: 15px;
     justify-content: center;
     align-items: center;
     padding-bottom:18px ;
-     border-bottom: 4px solid #6278B4 ;
-     margin: 18px  auto 47px ;
-     width: 351px;
+    border-bottom: 4px solid #6278B4 ;
+    margin:47px auto;
+    width: 351px;
 
 }
 
@@ -230,7 +226,6 @@ gap: 15px;
 .our-list{
      display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 
 
@@ -243,14 +238,11 @@ gap: 15px;
 .our-name{
     font-size: 32px;
     font-weight: 600;
-    display: flex;
     align-items: center;
     width: 224px;
     padding-top:32px ;
     margin: 18px  auto  ;
-     border-top: 4px solid #3A2E2E ;
     color: #3A2E2E;
-
 }
 
 
